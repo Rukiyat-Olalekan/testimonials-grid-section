@@ -1,87 +1,92 @@
 :root {
-    --color-neutral1: hsl(0, 0%, 81%);
-    --color-neutral2: hsl(210, 46%, 95%);
-    --color-neutral3: hsl(0, 0%, 100%);
-    --color-primary1: hsl(217, 19%, 35%);
-    --color-primary2: hsl(219, 29%, 14%);
-    --color-secondary: hsl(263, 55%, 52%);
+  --color-neutral1: hsl(0, 0%, 81%);
+  --color-neutral2: hsl(210, 46%, 95%);
+  --color-neutral3: hsl(0, 0%, 100%);
+  --color-primary1: hsl(217, 19%, 35%);
+  --color-primary2: hsl(219, 29%, 14%);
+  --color-secondary: hsl(263, 55%, 52%);
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    display: grid;
-    place-content: center;
-    background-color: var(--color-neutral2);
-    font-family: Barlow Semi Condensed, sans-serif;
-    font-weight: 400;
-    /* min-height: 100vh; */
+  margin: 0;
+  display: grid;
+  place-content: center;
+  background-color: var(--color-neutral2);
+  font-family: Barlow Semi Condensed, sans-serif;
+  font-weight: 400;
 }
 .testimonial {
-    padding: 1rem;
-    border-radius: 10px;
-    /* margin: 0.5rem; */
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
 }
 .flex {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 .testimonial img {
-    width: 50px;
-    border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;
 }
 h2 {
-    font-weight: 700;
-    line-height: 0;
+  font-weight: 700;
+  line-height: 0;
 }
 .bg-color-secondary {
-    background-color: var(--color-secondary);
-} 
+  background-color: var(--color-secondary);
+}
 .bg-color-primary1 {
-    background-color: var(--color-primary1);
+  background-color: var(--color-primary1);
 }
 .bg-color-neutral3 {
-    background-color: var(--color-neutral3);
+  background-color: var(--color-neutral3);
 }
 .bg-color-primary2 {
-    background-color: var(--color-primary2);
+  background-color: var(--color-primary2);
 }
 .txt-color-primary1 {
-    color: var(--color-primary1)
+  color: var(--color-primary1);
 }
 .txt-color-neutral3 {
-    color: var(--color-neutral3)
+  color: var(--color-neutral3);
 }
 .grid-col-span-2 {
-    grid-column: span 2;
+  grid-column: span 2;
 }
-.name, .role {
-    font-weight: 400;
-    font-size: medium;
+.name,
+.role {
+  font-weight: 400;
+  font-size: medium;
 }
-.role, p {
-    font-size: small;
+.role,
+p {
+  font-size: small;
 }
 .attribution {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (min-width: 50em) {
-    .testimonial-grid {
-        padding-inline: 2rem;
-        width: min(95%, 70rem);   
-        margin-inline: auto;
-        display: grid;;
-        gap: 1.5rem;
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .testimonial:last-child {
-        grid-column: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
+  .testimonial-grid {
+    padding-inline: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .testimonial {
+    margin: 0;
+  }
+  .testimonial:last-child {
+    grid-column: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
 }
