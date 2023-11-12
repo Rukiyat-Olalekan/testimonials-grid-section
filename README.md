@@ -1,8 +1,8 @@
-# Testimonial Grid Section- Frontend Mentor Challenge
+# Testimonials Grid Section- Frontend Mentor Challenge
 
 # Description
 
-The Testimonial Grid Section from Frontend Mentor is a CSS challenge designed to enhance your styling skills. It focuses on utilizing CSS variables to store common properties and leverages CSS grid to create a visually appealing two-dimensional layout for testimonials.
+The Testimonials Grid Section from Frontend Mentor is a CSS challenge designed to enhance your styling skills. It focuses on utilizing CSS variables to store common properties and leverages CSS grid to create a visually appealing two-dimensional layout for testimonials.
 
 # Technologies used
 
@@ -13,9 +13,9 @@ The Testimonial Grid Section from Frontend Mentor is a CSS challenge designed to
 
 To explore and work on the Testimonial Grid Section Challenge, follow these steps:
 
-1. Clone the repo to your local machine: git clone https://github.com/Rukiyat-Olalekan/testimonial-grid-section.git
+1. Clone the repo to your local machine: git clone https://github.com/Rukiyat-Olalekan/testimonials-grid-section.git
 
-2. Navigate to the project directory: cd testimonial-grid-section
+2. Navigate to the project directory: cd testimonials-grid-section
 
 3. Open the "index.html file in your browser and modify the code.
 
